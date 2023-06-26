@@ -1,0 +1,414 @@
+{
+  "boats": [
+    {
+      "name": "RB-300 НДНД",
+      "cost": 53000,
+      "index": 1,
+      "path": "boats/RB300NDND.glb",
+
+      "colors": [
+        {
+          "name": "Красный",
+          "cost": 1000,
+          "color": "B22222"
+        },
+        {
+          "name": "Серый",
+          "cost": 1000,
+          "color": "484849"
+        },
+        {
+          "name": "Оранжевый",
+          "cost": 1000,
+          "color": "FF8C00"
+        },
+        {
+          "name": "Синий",
+          "cost": 1000,
+          "color": "0000FF"
+        },
+        {
+          "name": "Белый",
+          "cost": 1000,
+          "color": "ffffff"
+        }
+      ],
+
+      "options": [
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Тент большой",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Держатели под спиннинг",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 23200,
+          "name": "Дуга транец",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Колеса",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сумка под сиденье",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сумка носовая",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сидушка мягкая",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Носовой тент",
+          "deps": ["Дуга транец"]
+        }
+      ]
+    },
+    {
+      "name": "RB-320 НДНД",
+      "cost": 53000,
+      "index": 2,
+      "path": "boats/RB320NDND.glb",
+
+      "colors": [
+        {
+          "name": "Красный",
+          "cost": 1000,
+          "color": "B22222"
+        },
+        {
+          "name": "Серый",
+          "cost": 1000,
+          "color": "484849"
+        }
+      ],
+
+      "options": [
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Тент большой",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Держатели под спиннинг",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 23200,
+          "name": "Дуга транец",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Колеса",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сумка под сиденье",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сумка носовая",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сидушка мягкая",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Носовой тент",
+          "deps": ["Дуга транец"]
+        }
+      ]
+    },
+    {
+      "name": "RB-330",
+      "cost": 53000,
+      "index": 3,
+      "path": "boats/RB330.glb",
+
+      "colors": [
+        {
+          "name": "Красный",
+          "cost": 1000,
+          "color": "B22222"
+        },
+        {
+          "name": "Серый",
+          "cost": 1000,
+          "color": "484849"
+        },
+        {
+          "name": "Оранжевый",
+          "cost": 1000,
+          "color": "FF8C00"
+        },
+        {
+          "name": "Синий",
+          "cost": 1000,
+          "color": "0000FF"
+        },
+        {
+          "name": "Белый",
+          "cost": 1000,
+          "color": "ffffff"
+        }
+      ],
+
+      "options": [
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Тент большой",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Держатели под спиннинг",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 23200,
+          "name": "Дуга транец",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Колеса",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сумка под сиденье",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сумка носовая",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сидушка мягкая",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Носовой тент",
+          "deps": ["Дуга транец"]
+        }
+      ]
+    },
+    {
+      "name": "RB-340",
+      "cost": 53000,
+      "index": 4,
+      "path": "boats/RB340.glb",
+
+      "colors": [
+        {
+          "name": "Красный",
+          "cost": 1000,
+          "color": "B22222"
+        },
+        {
+          "name": "Серый",
+          "cost": 1000,
+          "color": "484849"
+        },
+        {
+          "name": "Оранжевый",
+          "cost": 1000,
+          "color": "FF8C00"
+        },
+        {
+          "name": "Синий",
+          "cost": 1000,
+          "color": "0000FF"
+        },
+        {
+          "name": "Белый",
+          "cost": 1000,
+          "color": "ffffff"
+        }
+      ],
+
+      "options": [
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Тент большой",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Держатели под спиннинг",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 23200,
+          "name": "Дуга транец",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Колеса",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сумка под сиденье",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сумка носовая",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сидушка мягкая",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Носовой тент",
+          "deps": ["Дуга транец"]
+        }
+      ]
+    },
+    {
+      "name": "RB-350",
+      "cost": 53000,
+      "index": 5,
+      "path": "boats/RB350.glb",
+
+      "colors": [
+        {
+          "name": "Красный",
+          "cost": 1000,
+          "color": "B22222"
+        },
+        {
+          "name": "Серый",
+          "cost": 1000,
+          "color": "484849"
+        },
+        {
+          "name": "Оранжевый",
+          "cost": 1000,
+          "color": "FF8C00"
+        },
+        {
+          "name": "Синий",
+          "cost": 1000,
+          "color": "0000FF"
+        },
+        {
+          "name": "Белый",
+          "cost": 1000,
+          "color": "ffffff"
+        }
+      ],
+
+      "options": [
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Тент большой",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Держатели под спиннинг",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 23200,
+          "name": "Дуга транец",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Колеса",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сумка под сиденье",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сумка носовая",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Сидушка мягкая",
+          "deps": []
+        },
+        {
+          "img": "image/tent.jpg",
+          "cost": 2300,
+          "name": "Носовой тент",
+          "deps": ["Дуга транец"]
+        }
+      ]
+    }
+  ]
+}

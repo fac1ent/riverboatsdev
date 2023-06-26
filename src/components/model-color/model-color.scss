@@ -1,0 +1,30 @@
+@import '../../assets/style/variables';
+
+.color-preview {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+
+  box-shadow: 4px 4px 8px 0px rgba(8, 58, 97, 0.2);
+  margin: 0 10px;
+  cursor: pointer;
+
+  .selected {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin: auto;
+
+    border-radius: 50%;
+  }
+}
+
+.colors-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin: 4px;
+  padding: 2px;
+}

@@ -1,0 +1,33 @@
+@import '../../assets/style/variables';
+
+.stack-body-cards {
+  display: grid;
+  padding: 20px 16px;
+  border-radius: 4px;
+  background: transparent;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+  @media (max-width: $table-width) {
+    grid-template-columns: 1fr;
+    padding: 8px 16px;
+  }
+}
+
+
+
+.config-height {
+  overflow: auto;
+
+  @media (min-width: $table-width) {
+    &[data-openRange="true"] {
+    //  Высота вью порта - паддинги - открытый список моделей - кнопка открытия акксесуаров - отступ между - кнопка с отсупом
+    max-height: calc(100vh - 40px - (340px + 16px) - 70px - 16px - (60px + 20px));
+    }
+
+    &[data-openRange="false"] {
+    //  Высота вью порта - паддинги - кнопка открытия моделей - кнопка открытия акксесуаров - отступ между - кнопка с отсупом
+    max-height: calc(100vh - 40px - (70px) - 70px - 16px - (60px + 20px));
+    }
+  }
+}
+

@@ -1,0 +1,57 @@
+@import '../../assets/style/variables';
+
+.menu {
+  min-width: 320px;
+  max-width: 320px;
+  position: relative;
+  background-color: #fff;
+  box-shadow: -1px 4px 11px rgba(0, 0, 0, 0.15);
+  height: 100vh;
+  overflow: auto;
+
+  @media (max-width: $table-width) {
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+.model-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: auto;
+  margin-bottom: 16px;
+  padding-bottom: 32px;
+
+  @media (max-width: $table-width) {
+    height: 50vh;
+  }
+}
+
+.position {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  bottom: 20px;
+
+  @media (max-width: $table-width) {
+    position: unset;
+    //Ширина кнопки, внешний паддинг страницы и растояние между кнопками
+    padding: 0 calc(56px + 16px + 8px);
+  }
+
+  button {
+    height: 60px;
+    padding: 16px 10px;
+    width: 90%;
+
+    @media (max-width: $table-width) {
+      width: 100%;
+    }
+  }
+}
